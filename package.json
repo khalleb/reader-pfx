@@ -1,0 +1,25 @@
+{
+  "name": "pfx-reader",
+  "version": "0.0.1",
+  "description": "Read PXF file and retrieve data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Khalleb Ribeiro <khallebw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/node-forge": "^1.3.11",
+    "tsup": "^8.0.2",
+    "tsx": "^4.10.3",
+    "typescript": "^5.4.5"
+  }
+}
